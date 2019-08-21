@@ -7,8 +7,8 @@ let multer = require('multer')//文件上传中间件
 let OSS = require('ali-oss')//配置阿里云OSS存储
 let client = new OSS({
     region: 'oss-cn-shenzhen',
-    accessKeyId: 'LTAIzTgxnZjZYvn6',
-    accessKeySecret: 'IAtd0qE414NgbVEDCfloEk9cuy3JJO'
+    accessKeyId: '',
+    accessKeySecret: ''//阿里云上的配置
 })
 
 client.useBucket('treval')//使用的存储桶
